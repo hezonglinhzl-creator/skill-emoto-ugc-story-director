@@ -1,0 +1,156 @@
+{
+  "files": 30,
+  "bytes": 93314,
+  "entries": [
+    {
+      "path": ".gitignore",
+      "bytes": 527,
+      "sha256": "66217f0f41c5aa9113a779c5689e63dd8168e0b6ee1317b7a42003ed9c34120b"
+    },
+    {
+      "path": "apps/electric-moto-ai-workflow/skills/emoto-ugc-story-director/assets/output-template.md",
+      "bytes": 1601,
+      "sha256": "8e66ea2ee78897fa868365a604ff5bfd2bd645c273690865d379eb5e047c46fc"
+    },
+    {
+      "path": "apps/electric-moto-ai-workflow/skills/emoto-ugc-story-director/README_安装与使用.md",
+      "bytes": 873,
+      "sha256": "8c29072d2f8e2b5cf0f6d6f99a9f99b69d3f31200671edb7b5a8417e62c3ecd2"
+    },
+    {
+      "path": "apps/electric-moto-ai-workflow/skills/emoto-ugc-story-director/references/emotion-camera-direction.md",
+      "bytes": 3529,
+      "sha256": "76cde4bf0baccefd651025d409d02ab1a2f1a7a4b86a8d0506d34e3277c7fec7"
+    },
+    {
+      "path": "apps/electric-moto-ai-workflow/skills/emoto-ugc-story-director/references/omni-story-framework.md",
+      "bytes": 2993,
+      "sha256": "5d0fcfb22d0b91759b79a35210d40c338c482b0ad1c36091e4a33d4dd79a7189"
+    },
+    {
+      "path": "apps/electric-moto-ai-workflow/skills/emoto-ugc-story-director/scripts/validate_prompt.py",
+      "bytes": 3788,
+      "sha256": "2ff2001d9a03bb733de081f5d45c0df2fd70ccac25aa9fe3134c86fb85159ed1"
+    },
+    {
+      "path": "apps/electric-moto-ai-workflow/skills/emoto-ugc-story-director/SKILL.md",
+      "bytes": 10013,
+      "sha256": "0943ab21a04786b47445a658e335acb6dc1973765d504ce53494d52dd19dab9b"
+    },
+    {
+      "path": "apps/electric-moto-ai-workflow/viral-product-video-replicator-installer-20260706/install_windows.ps1",
+      "bytes": 1300,
+      "sha256": "745e792d7b105e18707d1a5e10668ab50087b3bc9899f2a61be04ce77d2d0324"
+    },
+    {
+      "path": "apps/electric-moto-ai-workflow/viral-product-video-replicator-installer-20260706/viral-product-video-replicator/agents/openai.yaml",
+      "bytes": 233,
+      "sha256": "2bd758215d9f2a090ea2b8e31c23604e7aa953d5b428fef5a3edc3af96b3046b"
+    },
+    {
+      "path": "apps/electric-moto-ai-workflow/viral-product-video-replicator-installer-20260706/viral-product-video-replicator/assets/character_bank_template.json",
+      "bytes": 604,
+      "sha256": "3b787b7eb2b2cbec41b97ab63e29a27ffcf396d86de1c34a600322fb25b0aab2"
+    },
+    {
+      "path": "apps/electric-moto-ai-workflow/viral-product-video-replicator-installer-20260706/viral-product-video-replicator/assets/product_brief_template.md",
+      "bytes": 219,
+      "sha256": "e5827b55695b5ec9e567af7b2f5343c9f260e6a142330a61144c8574172a31b2"
+    },
+    {
+      "path": "apps/electric-moto-ai-workflow/viral-product-video-replicator-installer-20260706/viral-product-video-replicator/references/banana-jimeng-fastcut-workflow.md",
+      "bytes": 6341,
+      "sha256": "30fa5033cb2fe12e9520b69e6ba5fea6aadb8cd1b4cdbc6146ace71d9acfbdcd"
+    },
+    {
+      "path": "apps/electric-moto-ai-workflow/viral-product-video-replicator-installer-20260706/viral-product-video-replicator/references/native-ugc-realness-workflow.md",
+      "bytes": 5616,
+      "sha256": "2a14bbe1aaf27fd54653efde70f195a5f8fc6aafeb9de386ba98f494d4d33bcf"
+    },
+    {
+      "path": "apps/electric-moto-ai-workflow/viral-product-video-replicator-installer-20260706/viral-product-video-replicator/references/output-contract.md",
+      "bytes": 1432,
+      "sha256": "26bc79a8800cc7695860f2939e1e2cb76c8a790619b2c43a1b596dfa52894466"
+    },
+    {
+      "path": "apps/electric-moto-ai-workflow/viral-product-video-replicator-installer-20260706/viral-product-video-replicator/references/seedance-codex-reference-breakdown.md",
+      "bytes": 2950,
+      "sha256": "a483b2044b8ac2e29010c57232538efb272df4bb0b119bc703721c1ac8d2aa55"
+    },
+    {
+      "path": "apps/electric-moto-ai-workflow/viral-product-video-replicator-installer-20260706/viral-product-video-replicator/scripts/split_storyboard.py",
+      "bytes": 2669,
+      "sha256": "0c53fdf1f526830f8c548d990fca000bddc20b013cf67970160c51ed86d57f4f"
+    },
+    {
+      "path": "apps/electric-moto-ai-workflow/viral-product-video-replicator-installer-20260706/viral-product-video-replicator/SKILL.md",
+      "bytes": 21907,
+      "sha256": "84b85dcc36ddaffac131f8a46ed91e2f7b920e6eba591e3555dfbae9f69a6be7"
+    },
+    {
+      "path": "apps/electric-moto-ai-workflow/viral-product-video-replicator-installer-20260706/使用说明.md",
+      "bytes": 1293,
+      "sha256": "22b87812a8a702a711702557019e5f6cff1f03990edbab8097600eedf11aa040"
+    },
+    {
+      "path": "apps/electric-moto-ai-workflow/viral-product-video-replicator-installer-20260706/安装到Codex.cmd",
+      "bytes": 304,
+      "sha256": "1c497817ea39b18fd1c6417af6dc3e84d17d7799eff0e9c0c47d31ed17cc0c5a"
+    },
+    {
+      "path": "apps/electric-moto-ai-workflow/viral-product-video-replicator-installer-20260706/验证安装.ps1",
+      "bytes": 487,
+      "sha256": "6241acefb8240829311c0c82de1d594b642e9eb0ad24c974447dd3ff378cb052"
+    },
+    {
+      "path": "install.ps1",
+      "bytes": 646,
+      "sha256": "2d27453c6a86ece11814c03c03496f2bf6e5d035da2e01d958ee1a724c904b7c"
+    },
+    {
+      "path": "README.md",
+      "bytes": 992,
+      "sha256": "7050b94ae47737df4a811223eba504a2dd1eb91fc386e95e92a631df9af7c0fb"
+    },
+    {
+      "path": "skill/emoto-ugc-story-director/assets/output-template.md",
+      "bytes": 1601,
+      "sha256": "8e66ea2ee78897fa868365a604ff5bfd2bd645c273690865d379eb5e047c46fc"
+    },
+    {
+      "path": "skill/emoto-ugc-story-director/README_安装与使用.md",
+      "bytes": 873,
+      "sha256": "8c29072d2f8e2b5cf0f6d6f99a9f99b69d3f31200671edb7b5a8417e62c3ecd2"
+    },
+    {
+      "path": "skill/emoto-ugc-story-director/references/emotion-camera-direction.md",
+      "bytes": 3529,
+      "sha256": "76cde4bf0baccefd651025d409d02ab1a2f1a7a4b86a8d0506d34e3277c7fec7"
+    },
+    {
+      "path": "skill/emoto-ugc-story-director/references/omni-story-framework.md",
+      "bytes": 2993,
+      "sha256": "5d0fcfb22d0b91759b79a35210d40c338c482b0ad1c36091e4a33d4dd79a7189"
+    },
+    {
+      "path": "skill/emoto-ugc-story-director/scripts/validate_prompt.py",
+      "bytes": 3788,
+      "sha256": "2ff2001d9a03bb733de081f5d45c0df2fd70ccac25aa9fe3134c86fb85159ed1"
+    },
+    {
+      "path": "skill/emoto-ugc-story-director/SKILL.md",
+      "bytes": 10013,
+      "sha256": "0943ab21a04786b47445a658e335acb6dc1973765d504ce53494d52dd19dab9b"
+    },
+    {
+      "path": "安装Skill.cmd",
+      "bytes": 105,
+      "sha256": "ad77696738bfb2f92f802e0941c18cb906baad9989a604536cfc81a60e176d1a"
+    },
+    {
+      "path": "打开程序文件夹.cmd",
+      "bytes": 95,
+      "sha256": "c4f42f3bec05b83599d984b3c79328e6fc93fb2be392fea35477918acd16759d"
+    }
+  ]
+}

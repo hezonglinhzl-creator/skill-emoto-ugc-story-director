@@ -1,15 +1,77 @@
-# emoto-ugc-story-director
+# 电摩 UGC 剧情编导 / eMoto UGC Story Director
 
-Independent Codex skill package. The installable skill is in [`skill/emoto-ugc-story-director/`](skill/emoto-ugc-story-director/). This repository also includes all paired program source files from the sanitized release under `apps/`.
+**简体中文** | [English](README.en.md)
 
-## Install and open
+把电摩创意整理为可执行的双段剧情、人物资产、首帧和连续镜头提示词。
 
-1. Download the repository ZIP or clone it.
-2. On Windows, double click `安装Skill.cmd` to copy the skill into `%USERPROFILE%\.codex\skills`.
-3. Double click `打开程序文件夹.cmd` to view the paired program source, then follow that program's README or startup script. Configure dependencies and accounts on your own computer.
+[下载完整项目包](https://github.com/hezonglinhzl-creator/varla-electric-mobility-skills-and-tools/raw/main/packages/skill-emoto-ugc-story-director.zip) · [全部项目](https://github.com/hezonglinhzl-creator/varla-electric-mobility-skills-and-tools)
 
-## Paired standalone programs
+## 功能特性
 
-- [electric-moto-ai-workflow](https://github.com/hezonglinhzl-creator/app-electric-moto-ai-workflow)
+- 人物表情与身体反应
+- 产品外形和对白说话者固定
+- 时间块分镜与提示词结构检查
 
-No credentials, customer/KOL records, contracts, mail history, databases, or business media are included. Source files are from the sanitized public release. Review each component's own license and documentation before use.
+## 这个包里有什么
+
+| 内容 | 位置 |
+| --- | --- |
+| 电摩 AI 内容资料与验证工具 | [electric-moto-ai-workflow](apps/electric-moto-ai-workflow/README.md) |
+| Skill 指令 | [SKILL.md](skill/emoto-ugc-story-director/SKILL.md) |
+
+## 下载和解压
+
+1. 在本仓库点绿色 **Code → Download ZIP**，或者点上方“下载完整项目包”。
+2. 下载完成后右键 ZIP，选择**全部解压**，打开能看到此 README 的文件夹。
+3. 保留整个目录；先按下一节准备程序，再安装和使用对应 Skill。
+
+## 1. 先准备程序
+
+### 电摩 AI 内容资料与验证工具 (`electric-moto-ai-workflow`)
+
+Codex；可选 Python 用于验证提示词文件。
+
+先进入 `apps/electric-moto-ai-workflow`。剧情导演与产品视频工作流资料，配合提示词结构验证。
+
+1. 这是内容工具资料集合，先使用完整包根目录的 `安装Skill.cmd`。
+2. 把自己的产品图和已确认参数交给 Codex，使用 emoto-ugc-story-director。
+3. 先检查分镜和提示词，再选择自己的视频生成平台。
+4. 需要结构检查时运行 `python skills/emoto-ugc-story-director/scripts/validate_prompt.py C:/path/prompt.md`。
+
+[查看完整程序与浏览器插件安装说明](apps/electric-moto-ai-workflow/README.md)
+
+没有独立的桌面视频生成程序或预装生成账号。
+
+## 2. 再安装 Skill
+
+1. 回到解压后的项目根目录，双击 `安装Skill.cmd`。
+2. 安装器把 `skill/emoto-ugc-story-director` 复制到 `%USERPROFILE%\.codex\skills\emoto-ugc-story-director`。遇到同名 Skill 会跳过，留意窗口结果。
+3. 重新打开 Codex，新建对话，使用下面的 Skill 名称和示例。
+4. 公司策略禁止脚本时，可先阅读 install.ps1，或手动把整个 Skill 目录复制到同一目标位置。
+
+## 3. 第一次怎么用
+
+| 准备项 | 内容 |
+| --- | --- |
+| 输入 | 产品参考图、目标市场、剧情方向和时长。 |
+| 输出 | 剧情、人物三视图提示词、首帧、视频提示词和发布文案。 |
+
+```text
+用 emoto-ugc-story-director，基于这张电摩参考图做双 10 秒车库惊喜剧情，先交分镜和中文核对版。
+```
+
+
+## 当前限制与常见问题
+
+配套 electric-moto-ai-workflow 是脚本与 Skill 资料集合，不是双击即可生成视频的桌面软件。
+
+| 问题 | 怎么处理 |
+| --- | --- |
+| 找不到 Skill | 检查安装窗口结果和目标 SKILL.md，重新打开 Codex 并新建对话。 |
+| 程序启动失败 | 在程序目录打开 PowerShell 运行本文命令，让错误保留在窗口，再对照对应程序 README。 |
+| 网页看不到插件 | 确认选中直接包含 manifest.json 的目录、网站受支持，并刷新网页。 |
+| 外部服务不可用 | 配置自己的授权并检查资源权限；保留本地结果，不把失败说成同步/发送成功。 |
+
+## 隐私与验证范围
+
+这是程序源码与 Skill 分发包，不附带真实账号、OAuth 令牌、客户/KOL 台账、合同、订单、邮箱导出或业务媒体。服务需使用自己的配置。已检查文档和包内入口；此次文档核对没有执行真实下单、发邮件或发布内容。

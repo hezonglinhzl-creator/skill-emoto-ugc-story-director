@@ -1,11 +1,21 @@
 {
-  "files": 30,
-  "bytes": 93314,
+  "files": 35,
+  "bytes": 109865,
   "entries": [
     {
       "path": ".gitignore",
       "bytes": 527,
       "sha256": "66217f0f41c5aa9113a779c5689e63dd8168e0b6ee1317b7a42003ed9c34120b"
+    },
+    {
+      "path": "apps/electric-moto-ai-workflow/README.en.md",
+      "bytes": 2101,
+      "sha256": "3f6ae458e5718af798d7317c2763841d9688ef7694fde219ca4b45a2948ac87d"
+    },
+    {
+      "path": "apps/electric-moto-ai-workflow/README.md",
+      "bytes": 2017,
+      "sha256": "ac49446e2d3997a2d909f5ee680e378b75919dcd64195b3d81e55eaa1416c5cf"
     },
     {
       "path": "apps/electric-moto-ai-workflow/skills/emoto-ugc-story-director/assets/output-template.md",
@@ -108,14 +118,29 @@
       "sha256": "2d27453c6a86ece11814c03c03496f2bf6e5d035da2e01d958ee1a724c904b7c"
     },
     {
+      "path": "README.en.md",
+      "bytes": 4033,
+      "sha256": "3801adc9500aa51a69d8e99eb9c57b0641c73d32a33f7b2c8ea1b08673258180"
+    },
+    {
       "path": "README.md",
-      "bytes": 992,
-      "sha256": "7050b94ae47737df4a811223eba504a2dd1eb91fc386e95e92a631df9af7c0fb"
+      "bytes": 3770,
+      "sha256": "2de5e0f727c17683d97b6206cf0217319f5286adbba91255114b288fe9df6337"
     },
     {
       "path": "skill/emoto-ugc-story-director/assets/output-template.md",
       "bytes": 1601,
       "sha256": "8e66ea2ee78897fa868365a604ff5bfd2bd645c273690865d379eb5e047c46fc"
+    },
+    {
+      "path": "skill/emoto-ugc-story-director/README.en.md",
+      "bytes": 2891,
+      "sha256": "bfabf0ce9b04429c5a972c56da193e0794f3878b92d51f2bc4399b4bf62761bd"
+    },
+    {
+      "path": "skill/emoto-ugc-story-director/README.md",
+      "bytes": 2731,
+      "sha256": "bfb0e217cabe7a241b9961574e280402a9814a38a5b5476673aee2e44b99a014"
     },
     {
       "path": "skill/emoto-ugc-story-director/README_安装与使用.md",

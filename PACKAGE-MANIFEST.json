@@ -1,11 +1,11 @@
 {
   "files": 35,
-  "bytes": 109865,
+  "bytes": 113154,
   "entries": [
     {
       "path": ".gitignore",
-      "bytes": 527,
-      "sha256": "66217f0f41c5aa9113a779c5689e63dd8168e0b6ee1317b7a42003ed9c34120b"
+      "bytes": 552,
+      "sha256": "306594764a35cf47b68ddefaf227968de9684a1c465fafa94d821ba4c5162e96"
     },
     {
       "path": "apps/electric-moto-ai-workflow/README.en.md",
@@ -114,18 +114,18 @@
     },
     {
       "path": "install.ps1",
-      "bytes": 646,
-      "sha256": "2d27453c6a86ece11814c03c03496f2bf6e5d035da2e01d958ee1a724c904b7c"
+      "bytes": 2339,
+      "sha256": "d662489ba0c1bf009c714b6030eab322a04042b5d8ff441eeb56bb4549763dd3"
     },
     {
       "path": "README.en.md",
-      "bytes": 4033,
-      "sha256": "3801adc9500aa51a69d8e99eb9c57b0641c73d32a33f7b2c8ea1b08673258180"
+      "bytes": 4323,
+      "sha256": "6a6bcc36c6fc1911dded2d49811f967649356cb36592af7121a61db33dab81dd"
     },
     {
       "path": "README.md",
-      "bytes": 3770,
-      "sha256": "2de5e0f727c17683d97b6206cf0217319f5286adbba91255114b288fe9df6337"
+      "bytes": 4006,
+      "sha256": "b29f58aeac5483ebf0bfee721a11742d3cbaa7f2daeacc1b148d1106a8380bba"
     },
     {
       "path": "skill/emoto-ugc-story-director/assets/output-template.md",
@@ -164,8 +164,8 @@
     },
     {
       "path": "skill/emoto-ugc-story-director/SKILL.md",
-      "bytes": 10013,
-      "sha256": "0943ab21a04786b47445a658e335acb6dc1973765d504ce53494d52dd19dab9b"
+      "bytes": 11058,
+      "sha256": "0804d9a39d0cf42d9e31f3aedd8554e030cb2877b072b1c04114afd849e8c7a5"
     },
     {
       "path": "安装Skill.cmd",
